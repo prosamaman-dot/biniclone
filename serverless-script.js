@@ -8,7 +8,7 @@ class BiniAIServerless {
         this.selectedTool = null;
         this.imagePreview = null;
         this.toolsMenuOpen = false;
-        this.geminiApiKey = 'AIzaSyBAgDmA7Uak6FIGh9MsN2582ouRaqpQ_Cg'; // Replace with your actual API key
+        this.geminiApiKey = 'AIzaSyB7nFWKcGw6eN1xjvHkDLpA4BEiOEaz6YU'; // Replace with your actual API key
         this.telegramBotToken = 'YOUR_TELEGRAM_BOT_TOKEN_HERE';
         this.telegramChatId = 'YOUR_TELEGRAM_CHAT_ID_HERE';
         this.userInfo = null;
@@ -1210,4 +1210,5 @@ let biniAI;
 document.addEventListener('DOMContentLoaded', () => {
     biniAI = new BiniAIServerless();
 });
+
 
